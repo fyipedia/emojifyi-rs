@@ -1,0 +1,22 @@
+[package]
+name = "emojifyi"
+version = "0.1.0"
+edition = "2021"
+authors = ["FYIPedia"]
+description = "Emoji metadata, encoding, and Unicode Emoji 16.0 lookup — async API client for emojifyi.com."
+license = "MIT"
+repository = "https://github.com/fyipedia/emojifyi-rs"
+homepage = "https://emojifyi.com"
+documentation = "https://docs.rs/emojifyi"
+readme = "README.md"
+keywords = ["emoji", "unicode", "encoding", "zwj", "skin-tone"]
+categories = ["api-bindings", "data-structures"]
+
+exclude = ["target/", "demo.gif", "demo.tape"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
