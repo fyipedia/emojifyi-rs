@@ -1,6 +1,6 @@
 [package]
 name = "emojifyi"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["FYIPedia"]
 description = "Emoji metadata, encoding, and Unicode Emoji 16.0 lookup — async API client for emojifyi.com."
